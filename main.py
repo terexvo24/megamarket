@@ -12,8 +12,6 @@ with sync_playwright() as p:
     page.goto(url)
     print(page.title())
     mobs = page.query_selector_all('.item-block')
-    sleep(3)
-    # browser.close()
 
 
 
